@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=SW, initial-scale=1.0">
+        <title>Flipped: Book and Author</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script>
+            function toggleActive() {
+               var element = document.getElementById("flip-box");
+               element.classList.toggle("active");
+            }
+        </script>
+    </head>
+<body>
+    <h3 style="text-align: center; color:black;">Flipped</h3>
+    <div class="container">
+        <div class="placeholder-div" id="nav_bar" style="padding-top: 50px;">
+            <ul>
+                <li><a href="Flipped.html" class='active-page'>About</a></li>
+                <li><a href="Excerpts.html">Excerpts</a></li>
+                <li><a href="Press.html">Press</a></li>
+                <li><a href="Purchase.html">Purchase</a></li>
+            </ul>
+        </div>
+        <div class="left-div">
+            <!-- <img class="book" src="Images/Flipped.jpg" alt="book"> -->
+            <div class="flip-box" id="flip-box" onclick="toggleActive()">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img class="book" src="Images/Covers/Flipped book - watermarked.jpg" alt="Flipped front" style="height:497px" width="354px">
+                    </div>
+                    <div class="flip-box-back">
+                        <img class="book" src="Images/Covers/Flipped Cover D4 back 2nd - watermarked.jpg" alt="Flipped back" style="height:497px" width="354px">
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="btn" onclick="toggleClass()">Click to flip</button> -->
+        </div>
+        <div class="right-div" style="text-align: center;">
+            <h3>About the book</h3>
+            <p>
+            In this novel about being seen and what is not seen, the previously hidden is revealed when the 
+            unexpected happens. In the unusually wet winter of 2010, two teenage girls set off to a party on a farm 
+            across a river, and disappear without a trace. Six years later, in the worst drought in living memory, 
+            a young woman vanishes while on her way home from work on a busy road. In the days following these events, 
+            those closest to the missing women are forced to question how well they really know them.
+            </p>
+            <br>
+            <h3>About the author</h3>
+            <p>
+            <a href="https://traceyhawthorne.weebly.com/">Tracey Hawthorne</a> is a writer and editor with over 35 years
+             of experience in almost all facets of publishing in South Africa, including mainstream and private book 
+             publishing, magazine and journal production, and digital media, and across a wide range of subjects, 
+             including politics, natural history, finance, art, celebrity, food, technology and medicine. 
+             She specialises in writing, ghost-writing, editing and producing biographies, autobiographies, memoirs 
+             and family histories. ​Flipped is her first novel.
+            </p>
+        </div>
+    </div>
+    <br>
+</body>
+</html>

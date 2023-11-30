@@ -1,0 +1,222 @@
+/*CSS for overall styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(221, 161, 31) 0%, rgba(147, 207, 212, 0.911) 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Cento, Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(20, 56, 216);
+}
+
+/*---------------------------------------*/
+/*Flipped home page styling 
+This has elements that will apply to the placeholder-div across pages */
+.container {
+    display: flex;
+    /* justify-content: center; */
+    width: 90%;
+    height: 500px;
+    /* background-color: rgb(231, 165, 88) */
+}
+
+.placeholder-div {
+    width: 10%; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    color: rgb(37, 23, 236);
+    /* background-color: #dddddd; */
+}
+
+ #nav_bar ul li a.active-page {
+  background-color:rgba(72, 255, 0, 0.685);
+}
+/*end navbar styling*/
+
+/* Flippable card for each side of book*/
+.left-div {
+    width: 30%;
+    height: 100%;    
+    text-align: right;
+    padding: 20px;
+}
+
+.flip-box {
+    background-color: transparent;
+    /* width: 357px; */
+    /* height: 508px; */
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f54747;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    text-align: justify;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box.active .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: rgba(0, 29, 34, 0.945);
+    color: white;
+    transform: rotateY(180deg);
+    text-align: right;
+  }
+
+.book {
+    max-width: 100%;
+    max-height: 100%;
+    border: 3px solid #ce9090;
+}
+/*End book CSS*/
+   
+/*About the Book and Author styling*/
+.right-div {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+} 
+/*End of about the Book and Author styling*/  
+
+/*---------------------------------------*/
+/*Purchase page*/
+.purchase-body {
+    /* color: rgb(32, 111, 156); */
+    background: linear-gradient(to bottom, rgb(12, 114, 173), rgb(216, 135, 42));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.purchase-body a {
+    color: rgb(10, 85, 128);
+    text-decoration: underline;
+}
+.purchase-body a:hover {
+    color: rgb(165, 94, 13);
+    background-color: rgb(83, 0, 42);
+}
+
+.purchase-div {
+    width: 80%;
+    padding-left: 3px;
+    padding: 20px;
+}
+
+.purchase-div a {
+    color:black;
+}
+.purchase-div a:hover {
+    background-color: rgb(17, 105, 156);
+}
+
+.column {
+    float: left;
+    width: 48%;
+    text-align: center;
+  }
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*---------------------------------------*/
+/*Press page*/
+.press-body {
+    /* color: rgb(32, 111, 156); */
+    background: linear-gradient(to bottom, rgb(2, 91, 143), rgb(216, 135, 42));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.press-body a {
+    color: rgb(0, 32, 51);
+    text-decoration: underline;
+}
+.press-body a:hover {
+    color: rgb(165, 94, 13);
+    background-color: rgb(51, 7, 29);
+}
+
+.press-div {
+    width: 80%;
+    color:black;
+}
+/*-------------------------------
+End press css*/
+
+/*Exerpt css*/
+.excerpt-body {
+    background: linear-gradient(to bottom, rgb(12, 114, 173), rgb(216, 135, 42));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.pic-flf {
+    text-align: center;
+    color: black;
+}
+
+.press-body .container .pic-flf a {
+    color: black;
+}
+
+figure {
+    padding: 4px;
+    margin: auto;
+}  
