@@ -7,7 +7,7 @@ The folder named "Site Photos" has 2 sub folders:
 - the one called Weebly has the images of the site as it is on Weebly and can be found at : https://flippedbythawthorne.weebly.com/
 
 An example of the code front/landing pages:
-(https://github.com/DanJHBrist/Flipped-website/blob/main/Site%20Photos/Coded%20pages/Landing%20page.png)
+![Screenshot1](https://github.com/DanJHBrist/Flipped-website/blob/main/Site%20Photos/Coded%20pages/Landing%20page.png)
 
 And the Weebly landing page:
-(https://github.com/DanJHBrist/Flipped-website/blob/main/Site%20Photos/Weebly%20site/Landing%20page.png)
+![Screenshot2](https://github.com/DanJHBrist/Flipped-website/blob/main/Site%20Photos/Weebly%20site/Landing%20page.png)
