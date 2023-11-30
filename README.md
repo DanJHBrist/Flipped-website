@@ -12,4 +12,4 @@ An example of the code front/landing pages:
 And the Weebly landing page:
 ![Screenshot2](https://github.com/DanJHBrist/Flipped-website/blob/main/Site%20Photos/Weebly%20site/Landing%20page.png)
 
-More screenshots can be found in the folder so named.
+More screenshots can be found in the folder named "Site Photos".
