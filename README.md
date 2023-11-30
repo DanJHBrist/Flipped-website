@@ -1,6 +1,6 @@
 # Flipped-website
 
-This is the HTML & CSS that I built for an author's website, befor ethey chose to have it built on weebly, which is also my work.
+This is the HTML & CSS that I built for an author's website, before they chose to have it built on Weebly, which is also my work.
 
 The folder named "Site Photos" has 2 sub folders: 
 - the one called "Coded pages" has the site as it is coded (not entirely finished as the decision to host it on weebly was made halfway through the design process)
